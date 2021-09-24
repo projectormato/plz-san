@@ -3,6 +3,7 @@ import googleapiclient.discovery
 import random
 import requests
 import itertools
+
 api_key = os.environ.get("GOOGLE_SEARCH_API_KEY")
 search_engine = os.environ.get("GOOGLE_SEARCH_ENGINE")
 DUMMY_IMAGE = False
